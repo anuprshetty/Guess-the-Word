@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="UTF-8">
+    <title>Guess the word!</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="players">
+            <div class="player">
+                <div class="player-dp">
+                    <img src="../images/tom.jpg" alt="Tom">
+                </div>
+                <div class="player-name">
+                    <form>
+                        <input id="tom_player_name" type="text" name="name" placeholder="Tell your name to Tom" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell your name to Tom'">
+                    </form>
+                </div>
+            </div>
+            <div id="vs">
+                <h1>VS</h1>
+            </div>
+            <div class="player">
+                <div class="player-dp">
+                    <img src="../images/jerry.jpg" alt="Jerry">
+                </div>
+                <div class="player-name">
+                    <form>
+                        <input id="jerry_player_name" type="text" name="name" placeholder="Tell your name to Jerry" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Tell your name to Jerry'">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="play">
+            <button onclick="redirectToPlayground();">Play</button>
+        </div>
+    </div>
+    <script src="../javascript/script.js"></script>
+</body>
+
+</html>

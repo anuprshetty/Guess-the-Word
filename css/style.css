@@ -1,0 +1,58 @@
+/* Styles for players.html */
+#wrapper {
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+#players {
+    display: grid;
+    grid-template-columns: 9fr 2fr 9fr;
+}
+
+#play {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.player {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+#wrapper > div {
+    background: red;
+}
+
+#wrapper > div:nth-child(odd) {
+    background: green;
+}
+
+div {
+    padding: 1em;
+}
+
+/* Styles for playground.html */
+#playground {
+    display: grid;
+    grid-template-rows: 2fr 1fr 4fr 3fr;
+}
+
+#word {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.player_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#alphabets {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
